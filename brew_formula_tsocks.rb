@@ -3,8 +3,8 @@ require 'formula'
 class Tsocks < Formula
   # The original is http://tsocks.sourceforge.net/
   # This GitHub repo is a maintained fork with OSX support
-  homepage 'http://github.com/pc/tsocks'
-  head 'https://github.com/pc/tsocks.git'
+  homepage 'http://github.com/tggo/tsocks_mac'
+  head 'https://github.com/tggo/tsocks_mac.git'
 
   depends_on 'autoconf' => :build if MacOS.xcode_version.to_f >= 4.3
 
